@@ -5,32 +5,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8bcfa1b-7897-4296-8182-27bf91336a4d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chan-rpc-easy/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chan-rpc-easy/src/main/java/com/jinchan/chanrpc/model/RpcRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chan-rpc-easy/src/main/java/com/jinchan/chanrpc/model/RpcResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chan-rpc-easy/src/main/java/com/jinchan/chanrpc/proxy/ServiceProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chan-rpc-easy/src/main/java/com/jinchan/chanrpc/proxy/ServiceProxyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chan-rpc-easy/src/main/java/com/jinchan/chanrpc/registry/LocalRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chan-rpc-easy/src/main/java/com/jinchan/chanrpc/serialiazer/JdkSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chan-rpc-easy/src/main/java/com/jinchan/chanrpc/serialiazer/Serializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chan-rpc-easy/src/main/java/com/jinchan/chanrpc/server/HttpServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chan-rpc-easy/src/main/java/com/jinchan/chanrpc/server/HttpServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chan-rpc-easy/src/main/java/com/jinchan/chanrpc/server/VertxHttpServe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-common/src/main/java/com/jinchan/example/common/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-common/src/main/java/com/jinchan/example/common/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-consumer/src/main/java/com/jinchan/example/consumer/EasyConsumerExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-provider/src/main/java/com/jinchan/example/provider/EasyProviderExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-provider/src/main/java/com/jinchan/example/provider/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/JavaSceneConfigState.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chan-rpc-core/chan-rpc-core.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chan-rpc-core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chan-rpc-core/src/main/java/com/jinchan/chanrpc/RpcApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chan-rpc-core/src/main/java/com/jinchan/chanrpc/config/RpcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chan-rpc-core/src/main/java/com/jinchan/chanrpc/constant/RpcConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chan-rpc-core/src/main/java/com/jinchan/chanrpc/model/RpcRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chan-rpc-core/src/main/java/com/jinchan/chanrpc/model/RpcResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chan-rpc-core/src/main/java/com/jinchan/chanrpc/proxy/ServiceProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chan-rpc-core/src/main/java/com/jinchan/chanrpc/proxy/ServiceProxyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chan-rpc-core/src/main/java/com/jinchan/chanrpc/registry/LocalRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chan-rpc-core/src/main/java/com/jinchan/chanrpc/serialiazer/JdkSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chan-rpc-core/src/main/java/com/jinchan/chanrpc/serialiazer/Serializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chan-rpc-core/src/main/java/com/jinchan/chanrpc/server/HttpServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chan-rpc-core/src/main/java/com/jinchan/chanrpc/server/VertxHttpServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chan-rpc-core/src/main/java/com/jinchan/chanrpc/server/VertxHttpServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chan-rpc-core/src/main/java/com/jinchan/chanrpc/utils/ConfigUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chan-rpc-core/target/classes/com/jinchan/chanrpc/model/RpcRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chan-rpc-core/target/classes/com/jinchan/chanrpc/model/RpcResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chan-rpc-core/target/classes/com/jinchan/chanrpc/proxy/ServiceProxy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chan-rpc-core/target/classes/com/jinchan/chanrpc/proxy/ServiceProxyFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chan-rpc-core/target/classes/com/jinchan/chanrpc/registry/LocalRegistry.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chan-rpc-core/target/classes/com/jinchan/chanrpc/serialiazer/JdkSerializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chan-rpc-core/target/classes/com/jinchan/chanrpc/serialiazer/Serializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chan-rpc-core/target/classes/com/jinchan/chanrpc/server/HttpServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chan-rpc-core/target/classes/com/jinchan/chanrpc/server/HttpServerHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chan-rpc-core/target/classes/com/jinchan/chanrpc/server/VertxHttpServe.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chan-rpc-easy/chan-rpc-easy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-common/example-common.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-consumer/src/main/java/com/jinchan/example/consumer/ConsumerExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-consumer/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jinchan-RPC.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chan-rpc-easy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chan-rpc-easy/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chan-rpc-easy/src/main/java/com/jinchan/chanrpc/proxy/ServiceProxyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/chan-rpc-easy/src/main/java/com/jinchan/chanrpc/proxy/ServiceProxyFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chan-rpc-easy/src/main/java/com/jinchan/chanrpc/server/HttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/chan-rpc-easy/src/main/java/com/jinchan/chanrpc/server/HttpServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chan-rpc-easy/src/main/java/com/jinchan/chanrpc/server/HttpServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/chan-rpc-easy/src/main/java/com/jinchan/chanrpc/server/VertxHttpServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chan-rpc-easy/src/main/java/com/jinchan/chanrpc/server/VertxHttpServe.java" beforeDir="false" afterPath="$PROJECT_DIR$/chan-rpc-easy/src/main/java/com/jinchan/chanrpc/server/VertxHttpServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example-provider/src/main/java/com/jinchan/example/provider/EasyProviderExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/example-provider/src/main/java/com/jinchan/example/provider/EasyProviderExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +70,15 @@
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="jdkForImporter" value="corretto-1.8" />
@@ -61,9 +88,9 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2cclOzSNxm5JkJ72zM0u7K9uIGl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -79,10 +106,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "1.8",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/project/jinchan-RPC",
+    "last_opened_file_path": "D:/javacode/jinchan-RPC/chan-rpc-core",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -90,17 +118,31 @@
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.09165901",
-    "settings.editor.selected.configurable": "editor.preferences.tabs",
+    "project.structure.side.proportion": "0.23480666",
+    "settings.editor.selected.configurable": "通义灵码",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\javacode\jinchan-RPC" />
       <recent name="D:\project\jinchan-RPC\example-provider\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EasyConsumerExample">
+  <component name="RunManager" selected="Application.ConsumerExample">
+    <configuration name="ConsumerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jinchan.example.consumer.ConsumerExample" />
+      <module name="example-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jinchan.example.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EasyConsumerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jinchan.example.consumer.EasyConsumerExample" />
       <module name="example-consumer" />
@@ -142,9 +184,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConsumerExample" />
         <item itemvalue="Application.EasyConsumerExample" />
         <item itemvalue="Application.com.jinchan.example.provider.EasyProviderExample" />
-        <item itemvalue="Application.EasyProviderExample" />
       </list>
     </recent_temporary>
   </component>
@@ -164,32 +206,30 @@
       <option name="presentableId" value="Default" />
       <updated>1708418721315</updated>
       <workItem from="1708418722333" duration="11349000" />
+      <workItem from="1708920406771" duration="9957000" />
+      <workItem from="1709023710543" duration="2249000" />
+      <workItem from="1709196931511" duration="1189000" />
+      <workItem from="1709344558039" duration="655000" />
+      <workItem from="1709470023072" duration="2733000" />
+      <workItem from="1709519924135" duration="1214000" />
+      <workItem from="1709627693873" duration="290000" />
+      <workItem from="1709627995448" duration="2637000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/chan-rpc-easy/src/main/java/com/jinchan/chanrpc/proxy/ServiceProxy.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/chan-rpc-easy/src/main/java/com/jinchan/chanrpc/proxy/ServiceProxy.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/chan-rpc-easy/src/main/java/com/jinchan/chanrpc/proxy/ServiceProxy.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -16,6 +16,7 @@
         <module name="example-provider" />
         <module name="example-consumer" />
         <module name="example-common" />
+        <module name="chan-rpc-core" />
       </profile>
     </annotationProcessing>
   </component>

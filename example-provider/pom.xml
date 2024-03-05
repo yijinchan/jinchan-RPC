@@ -11,7 +11,7 @@
   <dependencies>
     <dependency>
       <groupId>com.jinchan</groupId>
-      <artifactId>chan-rpc-easy</artifactId>
+      <artifactId>chan-rpc-core</artifactId>
       <version>1.0-SNAPSHOT</version>
     </dependency>
     <dependency>

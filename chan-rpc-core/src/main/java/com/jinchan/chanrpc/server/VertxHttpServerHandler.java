@@ -5,7 +5,6 @@ import com.jinchan.chanrpc.model.RpcResponse;
 import com.jinchan.chanrpc.registry.LocalRegistry;
 import com.jinchan.chanrpc.serialiazer.JdkSerializer;
 import com.jinchan.chanrpc.serialiazer.Serializer;
-import com.jinchan.chanrpc.server.HttpServer;
 import io.vertx.core.Handler;
 import io.vertx.core.buffer.Buffer;
 import io.vertx.core.http.HttpServerRequest;
@@ -16,14 +15,14 @@ import java.lang.reflect.Method;
 /**
  * HTTP请求处理器
  */
-public class HttpServerHandler implements Handler<HttpServerRequest> {
+public class VertxHttpServerHandler implements Handler<HttpServerRequest> {
 
     @Override
     public void handle(HttpServerRequest request) {
         //指定序列化器
         final Serializer serializer = new JdkSerializer();
         //记录日志
-        System.out.println("收到请求" + request.method() + " " + request.uri());
+        System.out.println("收到请求：" + request.method() + " " + request.uri());
         //异步处理HTTP请求
         request.bodyHandler(body -> {
             byte[] bytes = body.getBytes();
