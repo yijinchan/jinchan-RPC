@@ -1,7 +1,8 @@
 package com.jinchan.example.consumer;
 
-import com.jinchan.chanrpc.config.RpcConfig;
-import com.jinchan.chanrpc.utils.ConfigUtils;
+import com.jinchan.chanrpc.proxy.ServiceProxyFactory;
+import com.jinchan.example.common.model.User;
+import com.jinchan.example.common.service.UserService;
 
 /**
  * ClassName: ConsumerExample
@@ -13,7 +14,18 @@ import com.jinchan.chanrpc.utils.ConfigUtils;
  */
 public class ConsumerExample {
     public static void main(String[] args) {
-        RpcConfig rpc = ConfigUtils.loadConfig(RpcConfig.class, "rpc");
-        System.out.println(rpc);
+        //获取代理
+        UserService userService = ServiceProxyFactory.getProxy(UserService.class);
+        User user = new User();
+        user.setName("jinchan");
+        //调用服务
+        User newUser = userService.getUser(user);
+        if(newUser != null) {
+            System.out.println("姓名:" + newUser.getName());
+        } else {
+            System.out.println("姓名:null");
+        }
+        long number = userService.getNumber();
+        System.out.println("数字:" + number);
     }
 }

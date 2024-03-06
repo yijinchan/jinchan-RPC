@@ -29,4 +29,8 @@ public class RpcConfig {
      * 服务器端口号
      */
     private Integer serverPost = 8080;
+    /**
+     * 模拟调用
+     */
+    private boolean mock = false;
 }
