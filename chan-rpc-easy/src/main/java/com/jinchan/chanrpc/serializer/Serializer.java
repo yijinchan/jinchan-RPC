@@ -1,4 +1,4 @@
-package com.jinchan.chanrpc.serialiazer;
+package com.jinchan.chanrpc.serializer;
 
 import java.io.IOException;
 

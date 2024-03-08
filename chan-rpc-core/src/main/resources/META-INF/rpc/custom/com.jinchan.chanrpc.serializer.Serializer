@@ -1,0 +1,4 @@
+jdk=com.jinchan.chanrpc.serializer.JdkSerializer
+hessian=com.jinchan.chanrpc.serializer.HessianSerializer
+json=com.jinchan.chanrpc.serializer.JsonSerializer
+kryo=com.jinchan.chanrpc.serializer.KryoSerializer

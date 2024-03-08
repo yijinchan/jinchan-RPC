@@ -30,6 +30,7 @@ public class ServiceProxyFactory {
      * @return
      * @param <T>
      */
+    @SuppressWarnings("unchecked")
     private static <T> T getMockProxy(Class<T> serviceClass) {
 
         return (T) Proxy.newProxyInstance(
