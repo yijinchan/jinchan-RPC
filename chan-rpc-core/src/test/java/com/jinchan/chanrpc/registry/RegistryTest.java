@@ -13,6 +13,7 @@ import java.util.List;
  * Package: com.jinchan.chanrpc.register
  * Description:
  * 注册中心测试
+ *
  * @Author yijinchan
  * @Create 2024/4/6 15:53
  */
@@ -68,4 +69,10 @@ public class RegistryTest {
         Assert.assertNotNull(serviceMetaInfoList);
     }
 
+    @Test
+    public void heartBeat() throws Exception {
+        //init 方法中已经开启了心跳监测
+        register();
+        Thread.sleep(60 * 1000L);
+    }
 }
