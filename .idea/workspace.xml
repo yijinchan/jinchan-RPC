@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8bcfa1b-7897-4296-8182-27bf91336a4d" name="Changes" comment="心跳监测服务">
+    <list default="true" id="b8bcfa1b-7897-4296-8182-27bf91336a4d" name="Changes" comment="消费端服务缓存-本地缓存、监听机制">
+      <change afterPath="$PROJECT_DIR$/chan-rpc-core/src/main/java/com/jinchan/chanrpc/registry/RegistryServiceCache.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chan-rpc-core/src/main/java/com/jinchan/chanrpc/registry/EtcdRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/chan-rpc-core/src/main/java/com/jinchan/chanrpc/registry/EtcdRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chan-rpc-core/src/main/java/com/jinchan/chanrpc/registry/Registry.java" beforeDir="false" afterPath="$PROJECT_DIR$/chan-rpc-core/src/main/java/com/jinchan/chanrpc/registry/Registry.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +214,8 @@
       <workItem from="1712456432710" duration="404000" />
       <workItem from="1713083475955" duration="598000" />
       <workItem from="1713093321994" duration="3131000" />
-      <workItem from="1713148344279" duration="698000" />
+      <workItem from="1713148344279" duration="4587000" />
+      <workItem from="1713231376822" duration="1274000" />
     </task>
     <task id="LOCAL-00001" summary="全局配置加载">
       <created>1709630863986</created>
@@ -242,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713100650350</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="新增服务节点下线机制">
+      <created>1713149292177</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713149292177</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,7 +274,8 @@
     <MESSAGE value="接口mock" />
     <MESSAGE value="增加了多种序列化方式以及SPI机制" />
     <MESSAGE value="心跳监测服务" />
-    <option name="LAST_COMMIT_MESSAGE" value="心跳监测服务" />
+    <MESSAGE value="新增服务节点下线机制" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增服务节点下线机制" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
