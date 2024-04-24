@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8bcfa1b-7897-4296-8182-27bf91336a4d" name="Changes" comment="TCP服务器实现">
-      <change afterPath="$PROJECT_DIR$/chan-rpc-core/src/main/java/com/jinchan/chanrpc/protocol/ProtocolMessageDecoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chan-rpc-core/src/main/java/com/jinchan/chanrpc/protocol/ProtocolMessageEncoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chan-rpc-core/src/main/java/com/jinchan/chanrpc/server/tcp/VertxTcpClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chan-rpc-core/src/test/java/com/jinchan/chanrpc/protocol/ProtocolMessageTest.java" afterDir="false" />
+    <list default="true" id="b8bcfa1b-7897-4296-8182-27bf91336a4d" name="Changes" comment="TCP客户端，解码，编码器">
+      <change afterPath="$PROJECT_DIR$/chan-rpc-core/src/main/java/com/jinchan/chanrpc/server/tcp/TcpServerHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/JavaSceneConfigState.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaSceneConfigState.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chan-rpc-core/src/main/java/com/jinchan/chanrpc/protocol/ProtocolMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/chan-rpc-core/src/main/java/com/jinchan/chanrpc/protocol/ProtocolMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chan-rpc-core/src/main/java/com/jinchan/chanrpc/proxy/ServiceProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/chan-rpc-core/src/main/java/com/jinchan/chanrpc/proxy/ServiceProxy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +219,8 @@
       <workItem from="1713148344279" duration="4587000" />
       <workItem from="1713231376822" duration="6070000" />
       <workItem from="1713359576368" duration="776000" />
-      <workItem from="1713857531548" duration="5435000" />
+      <workItem from="1713857531548" duration="7250000" />
+      <workItem from="1713922283120" duration="4159000" />
     </task>
     <task id="LOCAL-00001" summary="全局配置加载">
       <created>1709630863986</created>
@@ -280,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713858713048</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="TCP客户端，解码，编码器">
+      <created>1713863494081</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1713863494081</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,7 +311,8 @@
     <MESSAGE value="消费端服务缓存-本地缓存、监听机制" />
     <MESSAGE value="协议消息结构" />
     <MESSAGE value="TCP服务器实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="TCP服务器实现" />
+    <MESSAGE value="TCP客户端，解码，编码器" />
+    <option name="LAST_COMMIT_MESSAGE" value="TCP客户端，解码，编码器" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -7,8 +7,7 @@ import com.jinchan.chanrpc.model.ServiceMetaInfo;
 import com.jinchan.chanrpc.registry.LocalRegistry;
 import com.jinchan.chanrpc.registry.Registry;
 import com.jinchan.chanrpc.registry.RegistryFactory;
-import com.jinchan.chanrpc.server.HttpServer;
-import com.jinchan.chanrpc.server.VertxHttpServer;
+import com.jinchan.chanrpc.server.tcp.VertxTcpServer;
 import com.jinchan.example.common.service.UserService;
 
 /**
@@ -21,29 +20,29 @@ import com.jinchan.example.common.service.UserService;
  */
 public class ProviderExample {
     public static void main(String[] args) {
-        // 初始化
+        // RPC 框架初始化
         RpcApplication.init();
 
-        //注册服务
+        // 注册服务
         String serviceName = UserService.class.getName();
         LocalRegistry.register(serviceName, UserServiceImpl.class);
 
-        //注册服务搭配注册中心
+        // 注册服务到注册中心
         RpcConfig rpcConfig = RpcApplication.getRpcConfig();
         RegistryConfig registryConfig = rpcConfig.getRegistryConfig();
         Registry registry = RegistryFactory.getInstance(registryConfig.getRegistry());
         ServiceMetaInfo serviceMetaInfo = new ServiceMetaInfo();
         serviceMetaInfo.setServiceName(serviceName);
         serviceMetaInfo.setServiceHost(rpcConfig.getServerHost());
-        serviceMetaInfo.setServicePort(rpcConfig.getServerPost());
+        serviceMetaInfo.setServicePort(rpcConfig.getServerPort());
         try {
             registry.register(serviceMetaInfo);
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
 
-        //启动web服务
-        HttpServer httpServer = new VertxHttpServer();
-        httpServer.doStart(RpcApplication.getRpcConfig().getServerPost());
+        // 启动 TCP 服务
+        VertxTcpServer vertxTcpServer = new VertxTcpServer();
+        vertxTcpServer.doStart(8080);
     }
 }
